@@ -1,5 +1,9 @@
 # Azure OpenAI Chat Client (Retry + Timeout + Logging)
 
+## 目的
+
+実務で使える最小構成のAIクライアント実装
+
 ## 概要
 
 Azure OpenAIを使用したシンプルなChatクライアントです。
@@ -107,8 +111,4 @@ INFO:openai._base_client:Retrying request to /chat/completions in 0.788982 secon
 ERROR:__main__:Error!: RetryError[<Future at 0xf3db74769be0 state=finished raised APITimeoutError>]
 ```
 
----
 
-## 目的
-
-実務で使える最小構成のAIクライアント実装
